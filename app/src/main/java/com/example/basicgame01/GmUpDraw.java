@@ -33,8 +33,8 @@ public class GmUpDraw {
     boolean newEnumPos = false;
     public boolean mortality;
 
-   // int enumyOldX;
-    //int enumyNewX;
+   int enumyOldX;
+    int enumyNewX;
 
     public static ArrayList<Rect> enumyRect = new ArrayList<>();// =  enumy[i].getDetectCollision();
 
@@ -422,9 +422,9 @@ public class GmUpDraw {
         // canvas.drawBitmap(bitmapBob, bobXPosition, 200, paint);
         // New drawing code goes here
         // New drawing code goes here
-        whereToDraw.set((int) plr.getX(),
+        whereToDraw.set(plr.getX(),
                 plr.getY(),
-                (int) plr.getX() + frameWidth,
+                plr.getX() + frameWidth,
                 plr.getY() + frameHeight);
 
 //            getCurrentFrame(isMoving);
