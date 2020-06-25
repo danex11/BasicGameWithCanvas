@@ -33,8 +33,8 @@ public class GmUpDraw {
     boolean newEnumPos = false;
     public boolean mortality;
 
-    int enumyOldX;
-    int enumyNewX;
+   // int enumyOldX;
+    //int enumyNewX;
 
     public static ArrayList<Rect> enumyRect = new ArrayList<>();// =  enumy[i].getDetectCollision();
 
